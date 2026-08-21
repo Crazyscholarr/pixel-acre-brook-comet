@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Be Vietnam Pro", "Segoe UI", system-ui, sans-serif;
+  --font-display: "Be Vietnam Pro", "Segoe UI", system-ui, sans-serif;
+  --font-serif: "Source Serif 4", "Noto Serif", Georgia, serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  --color-bg: #f4efe6;
+  --color-surface: #fffdf8;
+  --color-fg: #1c1814;
+  --color-muted: #6b6258;
+  --color-subtle: #8a7a66;
+  --color-primary: #3d5c45;
+  --color-primary-fg: #f4efe6;
+  --color-ink: #1c1814;
+  --color-border: #d9d0c0;
+  --color-danger: #8f3d32;
+  --color-warn: #8a6a3d;
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+
+  --shadow-border:
+    0px 0px 0px 1px rgba(28, 24, 20, 0.06),
+    0px 1px 2px -1px rgba(28, 24, 20, 0.06),
+    0px 2px 4px 0px rgba(28, 24, 20, 0.04);
+  --shadow-border-hover:
+    0px 0px 0px 1px rgba(28, 24, 20, 0.1),
+    0px 1px 2px -1px rgba(28, 24, 20, 0.08),
+    0px 2px 6px 0px rgba(28, 24, 20, 0.06);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html,
+  body,
+  #app {
+    min-height: 100%;
+    background: var(--color-bg);
+    color: var(--color-fg);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-image:
+      radial-gradient(rgba(28, 24, 20, 0.03) 0.6px, transparent 0.6px);
+    background-size: 7px 7px;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

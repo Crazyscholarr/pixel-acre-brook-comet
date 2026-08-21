@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Làng Kể",
+      "hasCanvas": false,
+      "bodyTextLen": 4527,
+      "bodyTextHash": "a2207dd896815624b85be4c34bbfe43c060120f2804bd3ec342032e423d8e44c",
+      "bodyTextPrefix": "Làng Kể Việt hóa truyện quê Trang chủ Thu thập Thư viện Xuất fil",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Làng Kể",
+      "hasCanvas": false,
+      "bodyTextLen": 4436,
+      "bodyTextHash": "6d0c081f7bfd1d56b7a50859e05ce81bf3b4d39f1fa4c07f96d1f0ff527b2d1e",
+      "bodyTextPrefix": "Làng Kể XƯỞNG NGUYÊN LIỆU Thu thập truyện. Kể lại bằng giọng làn",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

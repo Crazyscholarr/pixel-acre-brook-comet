@@ -1,0 +1,54 @@
+//#region node_modules/.nitro/vite/services/ssr/assets/types-Cy_kTi3C.js
+var SOURCE_IDS = [
+	"zhihu",
+	"i660",
+	"fanqie",
+	"reddit_aita",
+	"manual"
+];
+var STORY_STATUSES = [
+	"raw",
+	"cleaned",
+	"localized",
+	"exported"
+];
+var SOURCE_META = {
+	zhihu: {
+		label: "Zhihu 盐选",
+		short: "Zhihu",
+		language: "Trung",
+		kind: "Truyện ngắn gia đình"
+	},
+	i660: {
+		label: "660i 故事大全",
+		short: "660i",
+		language: "Trung",
+		kind: "Dân gian & ma"
+	},
+	fanqie: {
+		label: "番茄小说",
+		short: "Fanqie",
+		language: "Trung",
+		kind: "Truyện dài kỳ"
+	},
+	reddit_aita: {
+		label: "Reddit AITA",
+		short: "Reddit",
+		language: "Anh",
+		kind: "Mâu thuẫn đời thật"
+	},
+	manual: {
+		label: "Nhập tay",
+		short: "Tay",
+		language: "Tùy chọn",
+		kind: "Dán URL hoặc văn bản"
+	}
+};
+var STATUS_META = {
+	raw: { label: "Chưa xử lý" },
+	cleaned: { label: "Đã làm sạch" },
+	localized: { label: "Đã Việt hóa" },
+	exported: { label: "Đã xuất" }
+};
+//#endregion
+export { STORY_STATUSES as i, SOURCE_META as n, STATUS_META as r, SOURCE_IDS as t };
